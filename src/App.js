@@ -3,9 +3,9 @@ import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   const expenses = [
-    { title: "Expense One", ammount: 250, date: "25/10/2021" },
-    { title: "Expense Twoº", ammount: 250, date: "25/10/2021" },
-    { title: "Expense Three", ammount: 250, date: "25/10/2021" },
+    { title: "Expense One", ammount: 250, date: new Date(2021, 1, 1) },
+    { title: "Expense Twoº", ammount: 250, date: new Date(2021, 1, 1) },
+    { title: "Expense Three", ammount: 250, date: new Date(2021, 1, 1) },
   ];
   return (
     <div>
